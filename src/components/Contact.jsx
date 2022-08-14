@@ -8,7 +8,7 @@ function handleSubmit(e){
   }, 3000);
 }
 
-const Contact = () => {
+const Contact = () => {  
   return (
     <div
       name="contact"

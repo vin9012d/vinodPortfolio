@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com/in/rahulkarda2002",
+      href: "https://www.linkedin.com/in/vin9012d/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/rahulkarda",
+      href: "https://github.com/vin9012d",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:rahulkarda2002@gmail.com",
+      href: "mailto:vin9012c@gmail.com",
     },
     {
       id: 4,
@@ -42,17 +42,8 @@ const SocialLinks = () => {
       ),
       href: resume,
       download: true,
-    },
-    {
-      id: 5,
-      child: (
-        <>
-          Twitter <FaTwitter size={30} />
-        </>
-      ),
-      href: "https://twitter.com/rahulkarda2002",
-      style: "rounded-br-md",
-    },
+    }
+   
   ];
 
   return (

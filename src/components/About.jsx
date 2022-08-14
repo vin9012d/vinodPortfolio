@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-100 bg-gradient-to-b from-gray-800 to-black text-white about"
+      className="w-full h-100 bg-gradient-to-b from-gray-800 to-black text-white about "
     >
   <Fade top duration={1000} distance="40px">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -25,7 +25,7 @@ const About = () => {
         <p className="text-xl">
        I'm a passionate Developer,with strong administrative and communication skills,good attention to detail and the ability to write efficient code using MERN Stack.<br />  <br />
        As I grow and flourish as a Developer, one thing which keeps me going is my inquisitiveness for discovering new things every day.<br /> <br />
-       Fast Forwarding to today,I built a number of web applications and 3 major projects. Learned a great deal about teamwork,leadership,and communication. After months of rigorous training,here I am looking for an opportunity as a full stack web developer.YU
+       Fast Forwarding to today,I built a number of web applications and 3 major projects. Learned a great deal about teamwork, leadership and communication. After months of rigorous training, here I am looking for an opportunity as a full stack web developer. 
             </p>
             </Fade>
       </div>

@@ -17,7 +17,7 @@ import redux from "../assets/redux.png"
 import { Fade } from "react-reveal"
 
 
-const Experience = () => {
+const Skills = () => {
   const techs = [
     {
       id: 1,
@@ -55,24 +55,14 @@ const Experience = () => {
       title: "Next JS",
       style: "shadow-white",
     },
-    {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
+   
     {
       id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
-    {
-      id: 9,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
+
     {
       id: 10,
       src: express,
@@ -96,7 +86,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen experience"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen experience skills mt-52 mb-42 "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -123,4 +113,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skills;
